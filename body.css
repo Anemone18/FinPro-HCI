@@ -1,0 +1,86 @@
+body {
+  min-height: 100%;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e8f1fa;
+}
+
+#projects {
+  padding-top: 2rem;
+  background-color: #c4dbf3;
+}
+
+#contact {
+  background-color: #77c9ff;
+}
+#about {
+  background: linear-gradient(to right, #61b9f8, #7879FF);
+}
+
+.dropbtn {
+  /* background-color: #10D177; */
+  /* color: white; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.gambar {
+  position: relative;
+}
+.gambar ul {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  display: flex;
+  list-style: none;
+}
+.gambar ul li {
+  margin: 0 10px;
+}
+.gambar ul li button {
+  width: 75px;
+  background-color: rgb(241, 241, 241, 0.5);
+  border-radius: 50%;
+}
+.gambar ul li button img {
+  width: 100%;
+}
+.slidebaru {
+  width: 80%;
+  margin: auto;
+}
+
+/* .dropdown:hover .dropbtn { */
+/* background-color: #3e8e41; */
+/* } */
